@@ -16,9 +16,12 @@ export default {
     }
   },
 
-  provide: {
-    normalCount: this.count,
-    reactiveCount: this.count
+  provide() {
+    return {
+      normalCount: this.count,
+      reactiveCount: () => this.count,
+      onCountChange: this.onCountChange
+    }
   },
 
   methods: {
