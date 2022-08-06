@@ -10,3 +10,6 @@
 ## vue2 provide-inject 相关
 - provide提供的属性不是响应式的
 - 如何让provide提供的属性成为响应式的
+
+## vue2 利用observable实现组件之间的通信
+- 创建一个最小化的vuex
