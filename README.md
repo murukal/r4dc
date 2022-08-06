@@ -13,3 +13,6 @@
 
 ## vue2 利用observable实现组件之间的通信
 - 创建一个最小化的vuex
+
+## vue2 emit传递多个参数
+- 利用 ...arguments 把多个参数传递给事件监听器
