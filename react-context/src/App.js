@@ -5,6 +5,8 @@ import B1 from './components/group1/B'
 import GoodContext from './components/group2/GoodContext'
 import A2 from './components/group2/A'
 import B2 from './components/group2/B'
+import C2 from './components/group2/C'
+import D2 from './components/group2/D'
 
 export const badContext = createContext()
 
@@ -29,6 +31,8 @@ const App = () => {
       <GoodContext>
         <A2 />
         <B2 />
+        <C2 />
+        <D2 />
       </GoodContext>
     </>
   )
